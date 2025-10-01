@@ -1,9 +1,27 @@
-# Ignore virtual environment
+# Virtual Environment
+.venv/
 venv/
+env/
 
-# Ignore Python cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
 
-# Ignore VS Code settings (optional)
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Screenshots and videos (if you save any)
+*.jpg
+*.png
+*.mp4
+*.avi
